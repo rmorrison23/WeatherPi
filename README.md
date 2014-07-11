@@ -1,6 +1,6 @@
 WeatherPi
 =========
-This is a the final project for EECS 113 (processor hardware/software interfaces) Spring 2014. From the project prompt:
+This is the final project for EECS 113 (processor hardware/software interfaces) at UC Irvine, Spring 2014. From the project prompt:
 > The goal of this project is to make a Smart Weather Meter capable of scheduling irrigation systems, which uses weather data and sensor measurements. The overall system will be internet enabled and will access the California Irrigation Information System (CIMIS) database.
 
 #### Requirements    
