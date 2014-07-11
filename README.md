@@ -14,7 +14,7 @@ This is the final project for EECS 113 (processor hardware/software interfaces) 
 
 ####Installation
   * Download and install wiringPi library.
-  * Setup components according to [this diagram.](https://www.dropbox.com/s/7nzqvbun07y89k0/weatherDevice.png "Fritzing Diagram")
+  * Setup components according to [this diagram.](https://www.dropbox.com/s/yphddx2n1vm46tv/weatherDevice.png "Fritzing Diagram")
   * Navigate into WeatherPi directory.
   * `make`
   * `sudo ./weather`
