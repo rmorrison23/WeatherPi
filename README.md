@@ -11,5 +11,12 @@ This is the final project for EECS 113 (processor hardware/software interfaces) 
   * Breadboard
   * Resistors, LEDs, trimmer, push button 
   * [wiringPi Library](wiringpi.com/download-and-install/ "Download wiringPi Library") 
+
+####Installation
+  * Download and install wiringPi library.
+  * Setup components according to circuit.pdf
+  * 
+  
+
   
 
