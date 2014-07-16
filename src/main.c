@@ -74,5 +74,6 @@ int main (void){
 			/*drawRain(lcdHandle);*/
 			
 	}
+	lcdClear(lcdHandle);
 	return 0 ;
 }
