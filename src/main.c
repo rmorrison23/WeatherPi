@@ -33,8 +33,8 @@ static int lcdHandle ;
 int main (void){
 
 	/* fetch daily/hourly data from CIMIS */
-	getDailyData();
-	getHourlyData();
+	/*getDailyData();
+	getHourlyData();*/
 
 	printf ("  Internet-Enabled Weather Reporting Device\n") ;
 	printf ("=============================================\n\n") ;
@@ -51,23 +51,28 @@ int main (void){
 	lcdHandle = lcdInit (2, 16, 4, 11,10, 4,5,15,16,0,0,0,0);
 	lcdClear(lcdHandle);
 	
-	int *initHour; 
+	/*int *initHour; 
 	int hour = getSysHour();
-	initHour = &hour;
+	initHour = &hour;*/
 
 	while(1){
-			hour = getSysHour();
-			checkPumpStatus();
-			checkForUpdates(initHour = &hour);
-			drawHomeScreen(lcdHandle, 5);
-			delay(250);
- 			drawTempScreen(lcdHandle, 5);
- 			delay(250);
- 			drawSkyScreen(lcdHandle, 5);
- 			delay(250);
- 			drawIrrigateScreen(lcdHandle, 5);	
- 			delay(250);		
- 			checkPumpStatus();	
+			/*hour = getSysHour();
+			//checkPumpStatus();
+			//checkForUpdates(initHour = &hour);
+			//drawHomeScreen(lcdHandle, 5);
+			//delay(250);
+ 			//drawTempScreen(lcdHandle, 5);
+ 			//delay(250);
+ 			//drawSkyScreen(lcdHandle, 5);
+ 			//delay(250);
+ 			//drawIrrigateScreen(lcdHandle, 5);	
+ 			//delay(250);		
+ 			checkPumpStatus();*/	
+			drawSun(lcdHandle);
+			/*drawCloud(lcdHandle);*/
+			/*drawCloudySun(lcdHandle);*/
+			/*drawRain(lcdHandle);*/
+			
 	}
 	return 0 ;
 }
